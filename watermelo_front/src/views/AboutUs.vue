@@ -1,8 +1,11 @@
 <template>
-  <div>hello</div>
+  <div>
+    <DeveloperCard></DeveloperCard>
+  </div>
 </template>
 
 <script setup lang="ts">
+import DeveloperCard from "@/components/aboutUs/DeveloperCard.vue";
 </script>
 
 <style scoped lang="scss">

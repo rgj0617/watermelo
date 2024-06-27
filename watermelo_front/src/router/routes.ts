@@ -26,7 +26,7 @@ const routes: RouteRecordRaw[] = [
     children: [],
   },
   {
-    path: "/home2",
+    path: "/aboutUs",
     meta: {
       title: "watermelo",
     },
@@ -38,7 +38,15 @@ const routes: RouteRecordRaw[] = [
     meta: {
       title: "watermelo",
     },
-    component: () => import("@c/home/navigation.vue"),
+    component: () => import("@c/404/flexibleBox.vue"),
+    children: [],
+  },
+  {
+    path: "/basic",
+    meta: {
+      title: "watermelo",
+    },
+    component: () => import("@c/basic/backToTop.vue"),
     children: [],
   },
 ];
