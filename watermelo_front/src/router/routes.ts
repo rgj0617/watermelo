@@ -38,7 +38,7 @@ const routes: RouteRecordRaw[] = [
     meta: {
       title: "watermelo",
     },
-    component: () => import("@c/404/flexibleBox.vue"),
+    component: () => import("@v/test.vue"),
     children: [],
   },
   {
